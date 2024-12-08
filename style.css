@@ -1,0 +1,86 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111629;
+  min-height: 100vh;
+  flex-direction: column;
+  row-gap: 4vh;
+  margin-top: -10vh;
+}
+
+.wrapper {
+  background-color: rgba(74, 85, 103, 0.4);
+  min-width: 300px;
+  width: 35vmax;
+  min-height: 28vh;
+  border-radius: 20px;
+  background-image: url("./assets/bg-image-random-quote.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 2vh;
+  padding: 10px;
+}
+
+#author {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+}
+
+.tag {
+  color: #6466E9;
+  border: 1px solid #6466E9;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+#quote {
+  font-size: 2rem;
+  text-align: center;
+  text-wrap: auto;
+  color: white;
+  margin-top: 2vh;
+  opacity: 0.8;
+}
+
+.icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  border: 1px solid #97A3B6;
+  border-radius: 15px;
+  min-width: 200px;
+  width: 10vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 7px;
+}
+
+#copied {
+  display: none;
+}
